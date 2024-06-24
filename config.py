@@ -1,0 +1,13 @@
+import os
+
+RESULT_PATH =  os.path.dirname(os.path.realpath(__file__)) + "\\result"
+ORDER_TABLE_PREFIX = "order_result"
+
+# 欄位名稱
+
+#order_table
+DEMAND_DATE = "DEMAND_DATE"
+DEMAND_TYPE = "DEMAND_TYPE"
+ASSEMBLY_ITEM_NUMBER = "ASSEMBLY_ITEM_NUMBER"
+ASSEMBLY_ITEN_QTY = "ASSEMBLY_ITEN_QTY"
+NEW_SCHEDULE_DATE = "NEW_SCHEDULE_DATE"
